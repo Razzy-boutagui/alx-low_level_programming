@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char l[] = {"main"};
+	char l[] = {"_putchar"};
 	int i;
 
 	for (i = 0; i < 9; i++)
