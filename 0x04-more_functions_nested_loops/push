@@ -1,0 +1,7 @@
+#!/bin/bash
+read name 
+touch "write commit name "
+git add .
+
+git commit -m "%{name}"
+git push
