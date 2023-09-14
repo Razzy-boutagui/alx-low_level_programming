@@ -1,6 +1,6 @@
 #!/bin/bash
-read name 
-touch "\n write commit name:  "
+touch "write commit name:  "
+read name
 git add .
 
 git commit -m "%{name}"
