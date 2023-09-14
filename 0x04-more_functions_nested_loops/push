@@ -1,5 +1,5 @@
 #!/bin/bash
-touch "write commit name:  "
+echo "write commit name:  "
 read name
 git add .
 
