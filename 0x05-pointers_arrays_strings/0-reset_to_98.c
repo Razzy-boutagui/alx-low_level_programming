@@ -1,26 +1,11 @@
 #include "main.h"
+
 /**
- * _strcat - concats two arrays
+ * reset_to_98 - resets value to 98
  *
- * @dest: destination of concat
- * @src: source array to concat
- *
- * Return: char value
+ * @n: pointer integer
  */
-char *_strcat(char *dest, char *src)
+void reset_to_98(int *n)
 {
-	int i;
-	int j;
-
-	for (j = 0; dest[j] != '\0'; j++)
-	{}
-
-	for (i = 0; src[i] != '\0'; i++)
-	{
-		dest[j + i] = src[i];
-	}
-	dest[j + i] = '\0';
-
-	return (dest);
-
+	*n = 98;
 }
