@@ -3,10 +3,12 @@
 #include<stdio.h>
 
 
-/*
-*main - Entry point
-*Description : assigne a random variable to the variable n each time executed.
-*Return : always 0
+/**
+* main - Entry point
+*
+* Description : assigne a random variable to the variable n each time executed.
+*
+* Return : always 0
 */
 
 int main(void)
@@ -15,7 +17,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
 	if (n>5 && n%10 != 0)
 	{
 	    printf("Last digit of %d is %d and is greater than 5\n",n,n%10);
