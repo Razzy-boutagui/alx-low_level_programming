@@ -2,17 +2,26 @@
 /**
  * main - entry point
  *
- * Return: alway returns 0
+ * Return: always return 0
  *
  */
+
 int main(void)
 {
-	char a;
-
-	for (a = 'a'; a <= 'z' ; a++)
-		putchar(a);
-	for (a = 'A'; a <= 'Z'; a++)
-		putchar(a);
-	putchar('\n');
+char firstL = 'a';
+char lastL = 'z';
+char firstU = 'A';
+char lastU = 'Z';
+while (firstL <= lastL)
+{
+	putchar(firstL);
+	firstL++;
+}
+while (firstU <= lastU)
+{
+	putchar(firstU);
+	firstU++;
+}
+putchar('\n');
 	return (0);
 }
