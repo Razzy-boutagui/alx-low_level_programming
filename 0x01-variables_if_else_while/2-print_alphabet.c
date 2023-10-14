@@ -8,5 +8,6 @@ while (first<=last)
 putchar(first);
 first++;
 }
+putchar('\n');
    return 0;
 }
