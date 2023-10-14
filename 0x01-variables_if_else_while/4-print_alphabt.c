@@ -6,7 +6,7 @@
  *
  */
 
-int main()
+int main(void)
 {
 	char first = 'a';
 	char last = 'z';
@@ -18,7 +18,7 @@ while (first <= last)
 	{
 		putchar(first);
 	}
-	ffirst++;
+	first++;
 }
-	return(0);
+	return (0);
 }
