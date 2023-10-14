@@ -5,13 +5,13 @@
  * Return: always return 0
  *
  */
-int main (void)
+int main(void)
 {
 	int Number = 0;
 	while (Number < 10)
 	{
 		printf("%d",Number);
-		Number++;;
+		Number++;.
 	}
 	printf("\n");
 	return (0);
