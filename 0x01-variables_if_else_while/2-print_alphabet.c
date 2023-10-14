@@ -5,6 +5,7 @@
  * Return: always returns 0
  *
  */
+
 char first = 'a';
 char last = 'z';
 int main () {
