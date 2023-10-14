@@ -8,13 +8,13 @@
 
 int main(void)
 {
-        char a = 'a';
-        char b = 'b';
-while   (a <= b)
+        char first = 'a';
+        char last = 'b';
+while   (first <= last)
 
 {
-putchar(a);
-a++;
+putchar(first);
+first++;
 }
 putchar('\n');
 return (0);
