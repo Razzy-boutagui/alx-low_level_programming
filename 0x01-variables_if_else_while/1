@@ -8,10 +8,9 @@
 
 int main(void)
 {
-        char a = 'a';
-        char b = 'b';
-while   (a <= b)
-
+while	(a <= b)
+	char a = 'a';
+	char b = 'b';
 {
 putchar(a);
 a++;
