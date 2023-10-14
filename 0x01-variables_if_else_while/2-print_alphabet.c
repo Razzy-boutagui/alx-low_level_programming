@@ -8,8 +8,8 @@
 
 int main(void)
 {
-        char first = 'a';
-        char last = 'z';
+char first = 'a';
+char last = 'z';
 while   (first <= last)
 
 {
