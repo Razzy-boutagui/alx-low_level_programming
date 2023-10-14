@@ -6,13 +6,13 @@
  *
  */
 
-char first = 'a';
-char last = 'z';
+char a = 'a';
+char b = 'z';
 int main () {
-while (first<=last)
+while (a<=b)
 {
-putchar(first);
-first++;
+putchar(a);
+a++;
 }
 putchar('\n');
    return 0;
