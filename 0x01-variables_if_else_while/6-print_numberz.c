@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	int Number = 0;
+	int N = 0;
 
-	while (Number < 10)
+	while (N < 10)
 	{
-	putchar('Number');
+	putchar('N');
 
-	Number++;
+	N++;
 	}
 	putchar('\n');
 	return (0);
