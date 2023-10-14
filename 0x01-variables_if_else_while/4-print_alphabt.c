@@ -1,22 +1,24 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - entry point
  *
- * Return: alway returns 0
+ * Return: always 0
  *
  */
-int main(void)
-{
-	char a;
 
-	for (a = 'a'; a <= 'z' ; a++)
+int main()
+{
+	char first = 'a';
+	char last = 'z';
+	char q = 'q';
+	char e = 'e';
+while (first <= last)
+{
+	if (first != q && first != e)
 	{
-		if (a == 'q' || a == 'e')
-		{
-			continue;
-		}
-		putchar(a);
+		putchar(first);
 	}
-	putchar('\n');
-	return (0);
+	ffirst++;
+}
+	return(0);
 }
