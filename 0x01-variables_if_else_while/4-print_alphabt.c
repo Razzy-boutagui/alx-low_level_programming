@@ -20,5 +20,6 @@ while (first <= last)
 	}
 	first++;
 }
+	putchar('\n');
 	return (0);
 }
