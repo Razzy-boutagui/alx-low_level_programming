@@ -6,14 +6,15 @@
  *
  */
 
-char a = 'a';
-char b = 'z';
-int main () {
-while (a<=b)
+int main(void)
+{
+while	(a <= b)
+	char a = 'a';
+	char b = 'b';
 {
 putchar(a);
 a++;
 }
 putchar('\n');
-   return 0;
+return (0);
 }
