@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - Entry poin
+ *
+ * Return: always return 0
+ *
+ */
+
 int main(void)
 {
 	char first = '0';
