@@ -1,26 +1,31 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
- * Return: alway returns 0
+ * Return: always returns 0
  *
  */
+
 int main(void)
 {
-	unsigned char a = '0';
-	int i;
+char first = '0';
+char last = '9';
+char First = 'a';
+char Last = 'f';
 
-	for (i = 0; i < 10; i++)
-	{
-		putchar(a);
-		a++;
-	}
-	a = '1';
-	for (i = 0; i < 6; i++)
-	{
-		putchar('0' + a);
-		a++;
-	}
-	putchar('\n');
-	return (0);
+while (first <= last)
+
+putchar(first);
+first++;
+
+}
+while (First <= Last)
+
+{
+putchar(First);
+First++;
+
+}
+putchar('\n');
+return (0);
 }
