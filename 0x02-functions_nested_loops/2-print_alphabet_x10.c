@@ -14,10 +14,10 @@ void print_alphabet_x10(void)
 
 	while (min < 10)
 	{
-		while (first <= last && min < 10)
+		for (first = 'a',first < last, first++)
 		{
 			_putchar(first);
-			first++;
+
 		}
 		min++;
 		_putchar('\n');
