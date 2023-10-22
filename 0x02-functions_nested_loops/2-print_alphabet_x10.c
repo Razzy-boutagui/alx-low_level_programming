@@ -18,8 +18,8 @@ void print_alphabet_x10(void)
 		{
 			_putchar(first);
 			first++;
-			min++;
 		}
+		min++;
 		_putchar('\n');
 	}
 }
