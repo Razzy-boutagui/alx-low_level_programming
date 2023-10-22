@@ -5,6 +5,7 @@
 *
 * Return: Always return 0
 *
+* @c: the character to print
 */
 int _putchar(char c);
 
