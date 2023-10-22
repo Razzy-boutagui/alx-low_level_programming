@@ -19,6 +19,7 @@ void print_alphabet_x10(void)
 			_putchar(first);
 			first++;
 		}
+		char first = 'a';
 		min++;
 		_putchar('\n');
 	}
