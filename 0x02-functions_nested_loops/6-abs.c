@@ -6,7 +6,6 @@
  * @n: parametre
  *
  * Return: return the value of n
- *
  */
 
 int _abs(int n)
