@@ -16,13 +16,14 @@ int main(void)
 
 	printf("%ld, ", last);
 	printf("%ld, ", current);
-	for (x = 1; x <= 48; x++)
+	for (x = 1; x < 48; x++)
 	{
 		new = last + current;
 		printf("%ld, ", new);
 		last = current;
 		current = new;
 	}
+	printf("%ld", new);
 	printf("\n");
 
 	return (0);
