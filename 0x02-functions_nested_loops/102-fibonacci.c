@@ -7,20 +7,19 @@
  *
  */
 
-
 int main(void)
 {
-	int last = 1;
-	int current = 2;
-	int new = last + current;
-	int x;
+	long int last = 1;
+	long int current = 2;
+	long int new = last + current;
+	long int x;
 
-	printf("%d, ", last);
-	printf("%d, ", current);
+	printf("%ld, ", last);
+	printf("%ld, ", current);
 	for (x = 1; x <= 50; x++)
 	{
 		new = last + current;
-		printf("%d, ", new);
+		printf("%ld, ", new);
 		last = current;
 		current = new;
 	}
