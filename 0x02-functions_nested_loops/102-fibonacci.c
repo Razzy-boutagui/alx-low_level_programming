@@ -23,6 +23,7 @@ int main(void)
 		last = current;
 		current = new;
 	}
+	new = last + current;
 	printf("%ld", new);
 	printf("\n");
 
