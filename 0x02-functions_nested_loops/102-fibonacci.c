@@ -16,7 +16,7 @@ int main(void)
 
 	printf("%ld, ", last);
 	printf("%ld, ", current);
-	for (x = 1; x <= 50; x++)
+	for (x = 1; x <= 48; x++)
 	{
 		new = last + current;
 		printf("%ld, ", new);
