@@ -4,7 +4,7 @@
 
 
 
-int sum-natural(void)
+int main(void)
 {
 	int a = 3;
 	int b = 5;
@@ -18,5 +18,6 @@ int sum-natural(void)
 				
 		}
 	}
-	return (new_number);
+	printf("%d\n",new_number);
+	return(0);
 }
