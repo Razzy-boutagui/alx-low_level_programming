@@ -23,7 +23,6 @@ int main(void)
 	printf("%li, ", c);
 		a = b;
 		b = c;
-		if (c < 0)
 	}
 	printf("\n");
 	return (0);
