@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	double a = 0, b = 1, c;
+	unsigned long a = 0, b = 1, c;
 	int i;
 
 	for (i = 1; i <= 98; i++)
@@ -16,11 +16,11 @@ int main(void)
 		c = a + b;
 		if (i < 98)
 		{
-			printf("%.0f, ", c);
+			printf("%lu, ", c);
 		}
 		if (i == 98)
 		{
-			printf("%.0f", c);
+			printf("%lu", c);
 		}
 		a = b;
 		b = c;
