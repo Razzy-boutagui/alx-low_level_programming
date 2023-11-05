@@ -16,9 +16,14 @@ int main(void)
 	for (i = 1; i <= 98; i++)
 	{
 		c = a + b;
+		if (c < 0)
+		{
+			c = -c;
+		}
 	printf("%li, ", c);
 		a = b;
 		b = c;
+		if (c < 0)
 	}
 	printf("\n");
 	return (0);
