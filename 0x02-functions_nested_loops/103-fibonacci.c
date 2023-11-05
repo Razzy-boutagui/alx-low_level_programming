@@ -17,15 +17,15 @@ if (even <= 4000000)
 {
 	for (i = 0 ; i <= 50; i++)
 	{
-		c = a + b
-		a = b
-		b = c
+		c = a + b;
+		a = b;
+		b = c;
 		if (c % 2 == 0)
 		{
-			even = c + even
+			even = c + even;
 		}
 	}
 }
-	printf("%i\n", even)
+	printf("%i\n", even);
 	return (0);
 }
