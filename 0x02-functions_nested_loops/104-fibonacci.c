@@ -8,19 +8,12 @@
 
 int main(void)
 {
-	long int a, b, c, i;
-
-	a = 0;
-	b = 1;
+	int a = 0, b = 1, c, i;
 
 	for (i = 1; i <= 98; i++)
 	{
 		c = a + b;
-		if (c < 0)
-		{
-			c = -c * 2;
-		}
-	printf("%li, ", c);
+		printf("%li, ", c);
 		a = b;
 		b = c;
 	}
