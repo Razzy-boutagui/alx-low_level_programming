@@ -14,7 +14,14 @@ int main(void)
 	for (i = 1; i <= 98; i++)
 	{
 		c = a + b;
-		printf("%.0f, ", c);
+		if (c < 98)
+		{
+			printf("%.0f, ", c);
+		}
+		if (i == 98)
+		{
+			printf("%.0f", c);
+		}
 		a = b;
 		b = c;
 	}
