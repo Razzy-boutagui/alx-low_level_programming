@@ -18,7 +18,7 @@ int main(void)
 		c = a + b;
 		if (c < 0)
 		{
-			c = -c;
+			c = -c * 2;
 		}
 	printf("%li, ", c);
 		a = b;
