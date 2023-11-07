@@ -42,7 +42,9 @@ int main(void)
 				b = large;
 		}
 		if ((a + b) < 0 && positive == 1)
+		{
 			positive = 0;
+		}
 	}
 	printf("\n");
 	return (0);
