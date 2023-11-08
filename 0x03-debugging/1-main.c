@@ -7,15 +7,15 @@
 
 int main(void)
 {
-	int i;
+	int i; /*this is the error we shoud declare char not int */
 
 	printf("Infinite loop incoming :(\n");
 
 	i = 0;
 
-	while (i < 10) /* this is the part where the loop made infinite loop */
+	while (i < 10)
 	{
-		putchar(i); /* this is the part where the loop made infinite loop */
+		putchar(i);
 	}
 
 	printf("Infinite loop avoided! \\o/\n");
