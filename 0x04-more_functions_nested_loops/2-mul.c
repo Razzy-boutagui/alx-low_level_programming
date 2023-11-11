@@ -13,7 +13,7 @@
 
 int mul(int a, int b)
 {
-	int multi, a, b;
+	int multi;
 
 	multi = a * b;
 
