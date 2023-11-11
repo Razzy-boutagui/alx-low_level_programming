@@ -2,7 +2,7 @@
 
 /**
  * _isupper - check if uppercase
- *
+ * @c: variable to ceck
  * Return: 0 if lower and 1 if upper
  */
 
