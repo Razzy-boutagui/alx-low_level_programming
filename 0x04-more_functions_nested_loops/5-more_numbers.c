@@ -6,7 +6,7 @@
 
 void more_numbers(void)
 {
-	int i, ones, tens;
+	int i;
 
 	for (i = 0; i <= 14; i++)
 	{
@@ -18,8 +18,10 @@ void more_numbers(void)
 			ones;
 		}
 		else
+		{
 			tens;
 			ones;
+		}
 	}
 	_putchar('\n');
 }
