@@ -7,8 +7,8 @@
  
 int main(void)
 {
-        long long number = 612852475143;
-        long long prime_factory;
+        long number = 612852475143;
+        long prime_factory;
 
         for (prime_factory = 2; prime_factory * prime_factory <= number; prime_factory++)
         {
@@ -20,6 +20,6 @@ int main(void)
                         }
                 }
         }
-             printf("%lld\n", prime_factory);
+             printf("%ld\n", prime_factory);
              return 0;
 }
