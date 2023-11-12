@@ -20,6 +20,6 @@ int main(void)
                         }
                 }
         }
-             printf("%ld\n", prime_factory);
+             printf("%ld\n", number);
              return 0;
 }
