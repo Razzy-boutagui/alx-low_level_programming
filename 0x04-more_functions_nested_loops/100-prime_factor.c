@@ -3,23 +3,21 @@
 /**
  * main - calculat prime number
  *
+ * Return: alwayse 0
  */
- 
+
 int main(void)
 {
-        long number = 612852475143;
-        long prime_factory;
+	long number = 612852475143;
+	long p_factory;
 
-        for (prime_factory = 2; prime_factory * prime_factory <= number; prime_factory++)
-        {
-                while (number % prime_factory == 0)
-                {
-                        if (number % prime_factory == 0)
-                        {
-                                number = number / prime_factory;
-                        }
-                }
-        }
-             printf("%ld\n", number);
-             return 0;
+	for (_factory = 2; p_factory * p_factory <= number; p_factory++)
+	{
+		while (number % p_factory == 0)
+		{
+			number = number / p_factory;
+		}
+	}
+	printf("%ld\n", number);
+	return (0);
 }
