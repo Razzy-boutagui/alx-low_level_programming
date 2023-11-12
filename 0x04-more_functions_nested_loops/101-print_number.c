@@ -13,7 +13,7 @@ void print_number(int n)
 		_putchar('-');
 		n = -n;
 	}
-	if(n >= 100000)
+	if (n >= 100000)
 	{
 		_putchar(n / 100000 % 10 + '0');
 	}
