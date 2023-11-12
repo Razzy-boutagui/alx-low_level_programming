@@ -20,12 +20,12 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar('-');
-		//n = n + 1;
+		/*n = n + 1;*/
 		n = -n;
 		y = n;
 		x = n;
-		//x += 1;
-		//y += 1;
+		/*x += 1;*/
+		/*y += 1;*/
 	}
 
 	while (x != 0)
