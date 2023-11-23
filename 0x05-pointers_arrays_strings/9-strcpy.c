@@ -1,7 +1,7 @@
 #include"main.h"
 #include"2-strlen.c"
 /**
- * _strcpy(char *dest, char *src) - copy function
+ * _strcpy - copy function
  *
  * @dest: where to past the copy
  *
