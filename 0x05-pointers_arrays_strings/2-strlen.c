@@ -1,14 +1,15 @@
-#include"main.h"
-#include<string.h>
-
+#include "main.h"
 /**
- * _strlen - return lenght of string
+ * _strlen - gets character string
  *
- * @s: the string we have
- * Return: return the lenght
+ * @s: character to getstring
+ * Return: returns length
  */
-
 int _strlen(char *s)
 {
-	return (strlen(s));
+	int i;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{}
+	return (i);
 }

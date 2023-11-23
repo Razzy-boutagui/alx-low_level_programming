@@ -9,17 +9,18 @@
 void rev_string(char *s)
 {
 	int i;
-	char *a;
-	int b;
+	int lenght = _strlen(s);
+	char temp;
+	char *start = s;
+	char *end = s + lenght - 1;
 
-	a = s;
-	a = a + (_strlen(s) - 1);
-
-	for (i = _strlen(s) - 1; i >= 0; i--)
+	for (i = 0; lenght / 2; i++)
 	{
-	b = *a - 1;
-	*s = *a + 1;
-	*a = b;
+		temp = *end;
+		*end = *start;
+		*start = temp;
+		end--;
+		start++;
 	}
-
 }
+
